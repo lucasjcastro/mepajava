@@ -35,6 +35,10 @@ public class Definicoes {
 	ABRE_COLCHETES("["),
 	FECHA_COLCHETES("]");
         
+        Simbolos(String simbolo) {
+            this.simbolo = simbolo;
+        }
+        
         // String simbolo refere-se ao valor "passado por parametro" em cada enum
         private String simbolo;
         // Retorna valor do simbolo
@@ -47,6 +51,10 @@ public class Definicoes {
         DIFERENTE("<>"),
         RECEBE(":="),
 	PONTO_PONTO("..");
+        
+        SimbolosCompostos(String simbolo) {
+            this.simbolo = simbolo;
+        }
                 
         // String simbolo refere-se ao valor "passado por parametro" em cada enum
         private String simbolo;
@@ -85,6 +93,10 @@ public class Definicoes {
         INTEGER("integer"),
 	READ("read"),
         WRITE("write");
+        
+        PalavrasReservadas(String palavra) {
+            this.palavra = palavra;
+        }
         
         // palavra assumira o valor do parametro passado para cada enum
         private String palavra;
