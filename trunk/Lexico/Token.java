@@ -39,7 +39,7 @@ public class Token {
     public int getValor() {
         return valor;
     }
-    public void setValor() {
+    public void setValor(int valor) {
         this.valor = valor;
     }
     
